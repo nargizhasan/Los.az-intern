@@ -52,7 +52,7 @@ owl.on('mousewheel', '.owl-stage', function (e) {
 /* End of owl carousel slider */
 /* Filter Functions */
 function filterFunctions() {
-  var x = document.getElementById("filter__category");
+  var x = document.getElementById("filter-category");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
